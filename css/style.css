@@ -1,14 +1,23 @@
+/*Fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
 /*Default Style*/
 body{
 	margin:0;
 	line-height: 1.5;
 	font-size: 16px;
+	font-weight: 400;
 }
 
 *{
 	margin:0;
 	padding:0;
 	box-sizing: border-box;
+}
+
+*:not(i){
+	font-family: 'Roboto', sans-serif;
 }
 
 a{
@@ -65,6 +74,9 @@ header,section,footer{
 	font-size: 30px;
 	color:#fff;
 	font-weight: bold;
+	font-family: 'Great Vibes', cursive;
+	letter-spacing: 2px;
+	text-transform: uppercase;
 }
 
 .header .nav{
@@ -85,6 +97,11 @@ header,section,footer{
 .header .nav ul li a{
 	display:block;
 	padding: 25px 0;
+	color:#fff;
+	font-size: 15px;
+	text-transform: uppercase;
+	text-decoration: none;
+	transition: color 0.5s ease;
 }
 
 /*Section Home*/
