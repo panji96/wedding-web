@@ -1,5 +1,26 @@
 /*Pink Color Style*/
+.people-section .people-item-inner .social-links a i,
+.event-section .event-item-inner span,
+.story-section .story-item i, 
+.story-section .story-text h3,
+.couple-section .couple h3,
+.couple-section .couple i.fa-heart,
+.couple-section .couple .social-links a i,
 .header .nav ul li a.active,
 .header .nav ul li a:hover{
 	color:#fb839e;
+}
+
+.people-section .people-item-inner .social-links a i,
+.event-section .event-item-inner:before,
+.couple-section .couple img,
+.couple-section .couple .social-links a i{
+	border-color:#fb839e;
+}
+
+.people-section .people-item-inner .social-links a:hover i,
+.people-section .filter-btn.active,
+.event-section,
+.couple-section .couple .social-links a:hover i{
+	background-color: #fb839e; 
 }
